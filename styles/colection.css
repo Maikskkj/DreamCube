@@ -1,0 +1,26 @@
+.section__tree {
+    height: 100vh;
+    background: url(../img/flames-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--background);
+    padding: 3rem;
+}
+
+.section__tree .div__content {
+    background-color: var(--background-two);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    height: 90vh;
+}
+
+.section__tree .div__content .content__titulo {
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.section__tree .div__content .content__texto {
+    font-size: 1.5em;
+}

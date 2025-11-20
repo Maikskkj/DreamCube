@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.svg"> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DreamCube</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="./img/logo_dream_cube.svg" alt="logo dream cube">
+    </header>
+    <main class="principal">
+        <div class="principal__div__informations">
+            <h2 class="principal__titulo">“E se o seu universo favorito <br>coubese em um cubo ?”</h2>
+            <p class="principal__texto">Transforme nostalgia em arte.</p>
+            <a class="principal__botao" href="#colection">EXPLORAR COLEÇÃO</a>
+        </div>
+    </main>
+    <section class="section__second">
+        <h2 class="second__titulo">O <strong class="titulo__strong">Dreamcube</strong> nasceu da ideia de transformar nostalgia em arte digital e física.</h2>
+        <p class="second__texto">Criamos miniuniversos que concetam emoção, memória e design Cada detalhe é feito com cuidado, qualidade e um atendimento que valoriza quem acredita em arte.</p>
+        <div class="container__second__div">
+            <div class="div__jogos contorno__div">
+                <img class="icons__div" src="./img/controle.svg" alt="controle de videogame">
+                <p class="text__icons">Universos de jogos icônicos recriados em miniatura.</p>
+            </div>
+            <div class="div__filmes contorno__div">
+                <img class="icons__div" src="./img/cinema.svg" alt="marcador de filme">
+                <p class="text__icons">Cenas de filme, anime e séries em cubos 3D únicos.</p>
+            </div>
+            <div class="div__preview contorno__div">
+                <img class="icons__div" src="./img/smile.svg" alt="rosto feliz">
+                <p class="text__icons">Modelos feitos digitalmente para vizualização prévia do cliente.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section__tree" id="colection">
+        <div class="div__content">
+            <h3 class="content__titulo">MODELOS DISPONÍVEIS</h3>
+            <p class="content__texto">Kimetsu No Yaiba - Demon Slayer</p>
+            <model-viewer
+                src="./models/HORNET.glb"
+                alt="Modelo hornet 3D"
+                auto-rotate
+                camera-controls
+                style="width: 100%; height: 500px;">
+            </model-viewer>
+            <div></div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+</html>

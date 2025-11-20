@@ -1,0 +1,41 @@
+@import url(./styles/cabecalho.css);
+@import url(./styles/principal.css);
+@import url(./styles/secaodois.css);
+@import url(./styles/colection.css);
+
+@font-face {
+    font-family: Acumin Variable Concept;
+    src: url(./fonts/Acumin-Variable-Concept.ttf);
+}
+@font-face {
+    font-family: TT Firs Neue;
+    src: url(./fonts/TT-Firs-Neue-Trial-Medium.ttf);
+}
+
+
+:root {
+    --white: #FFFFFF;
+    --background: #32005A;
+    --background-two: #1D0034;
+    --text-one: #97B7D9;
+    --degrade-dream: linear-gradient(316deg,rgba(92, 0, 227, 1) 0%, rgba(167, 0, 207, 1) 100%);
+    --font-principal: "TT Firs Neue";
+    --font-secundaria: "Acumin Variable Concept";
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+    background: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: var(--white);
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 1em;
+}
+

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="42" viewBox="0 0 37 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="FAVICON" class="cls-1" d="M424,58l16,12,17-12L440,47Zm-2,3,1,16,15,12V73Zm20,12V89l17-12-1-16Z" transform="translate(-422 -47)"/>
+</svg>
