@@ -24,3 +24,21 @@
 .section__tree .div__content .content__texto {
     font-size: 1.5em;
 }
+
+@media (max-width: 720px) {
+    .section__tree .div__content .content__titulo  {
+        font-size: 2.5em;
+    }
+}
+
+
+@media (max-width: 430px) {
+    .section__tree .div__content {
+        height: 50%;
+    }
+
+    .section__tree .div__content .viewer {
+        height: 50%;
+        align-items: center;
+    }
+}

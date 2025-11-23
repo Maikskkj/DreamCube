@@ -27,8 +27,19 @@
     background: var(--degrade-dream);
     padding: 1rem;
     border-radius: 40px;
+    transition: font-size 0.3s, color 0.3s
 }
 
+.principal .principal__div__informations .principal__botao:hover {
+    font-size: 1.1em;
+    color: var(--background-two);
+}
+
+@media (max-width: 720px) {
+    .principal .principal__div__informations .principal__titulo {
+        font-size: 2em;
+    }
+}
 
 
 
