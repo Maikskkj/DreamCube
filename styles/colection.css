@@ -33,17 +33,24 @@
 
 
 @media (max-width: 430px) {
+    .section__tree {
+        height: auto;
+    }
+
     .section__tree .div__content {
-        height: 50%;
+        height: auto;
+        padding: 0;
+        margin: 0;
     }
 
     .section__tree .div__content .viewer {
-        height: 50%;
-        align-items: center;
+        width: 100%;
+        height: 100px;
     }
 
     .section__tree .div__content .content__titulo {
         font-size: 1.5em;
+        padding-top: 1rem;
     }
 
     .section__tree .div__content .content__texto {
