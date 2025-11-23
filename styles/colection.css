@@ -41,4 +41,12 @@
         height: 50%;
         align-items: center;
     }
+
+    .section__tree .div__content .content__titulo {
+        font-size: 1.5em;
+    }
+
+    .section__tree .div__content .content__texto {
+        font-size: 1em;
+    }
 }

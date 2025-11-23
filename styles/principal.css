@@ -41,5 +41,10 @@
     }
 }
 
+@media (max-width: 430px) {
+    .principal .principal__div__informations .principal__titulo {
+        font-size: 1.5em;
+    }
+}
 
 
